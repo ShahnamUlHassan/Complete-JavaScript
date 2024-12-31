@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>String Functions in JavaScript</title>
+</head>
+<body>
+    
+    <script>
+        var str = "Hello World!";
+        console.log(str);
+
+        var position = str.indexOf("o");
+        console.log(position);
+
+        position = str.lastIndexOf("W");
+        console.log(position);
+
+        //Slice Method
+        var str = "Hello World!";
+        var substr = str.slice(2 , 5);
+        console.log(substr);
+        console.log(str[2]);
+
+        //Replace Method
+
+        var str = "Hello World";
+        console.log(str);
+        var replaced = str.replace("World" , "Shahnam");
+        console.log(replaced);
+        //UpperCase
+        var str = "Hello World!";
+        console.log(str.toUpperCase());
+
+        //LowerCase
+
+        var str = "Hello World!";
+        console.log(str.toLowerCase());
+
+        //Concat Method
+        var str = "Hello World!";
+        var str2 = "Hello Shahnam!";
+        console.log(str.concat(str2));
+
+        //Trim Function
+        var strWithWhiteSpaces = "   this contains white      spaces     ";
+        console.log(strWithWhiteSpaces);
+        console.log(strWithWhiteSpaces.trim());
+
+        //Character Extract
+        var str = "Hello World!";
+        var char = str.charAt(2);
+        console.log(char);
+        var char1 = str.charCodeAt(2);
+        console.log(char1);
+
+
+    </script>
+</body>
+</html>
